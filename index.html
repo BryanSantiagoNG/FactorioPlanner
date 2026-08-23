@@ -69,6 +69,15 @@
 @media(max-width:1050px){.recipe-grid{grid-template-columns:1fr}}
 @media(max-width:560px){.recipe-grid{padding:10px}.recipe-equation{justify-content:flex-start}.raw-list>div{grid-template-columns:46px minmax(0,1fr)}.raw-list>div>.item-icon{width:46px;height:46px}}
 
+
+/* Separación entre iconos y cantidades de recetas */
+.recipe-inputs{gap:14px}
+.recipe-inputs>span,.recipe-output{grid-template-columns:40px auto!important;column-gap:9px!important;align-items:center}
+.recipe-inputs>span .item-icon,.recipe-output .item-icon{margin-right:0}
+.recipe-equation b{display:inline-grid;place-items:center;min-width:24px;min-height:22px;padding:3px 6px;border:1px solid #d3ccc0;border-radius:4px;background:#fbfaf6;color:#182027;box-shadow:0 1px 2px #2222}
+.recipe-inputs i{margin:0 1px;font-size:15px}
+.recipe-equation em{margin:0 4px}
+
 </style>
   </head>
   <body>
